@@ -4,9 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>UTPL</title>
-    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/estilos.css" />
   </head>
+
   <body>
-    hola mundo
+    <header class="CabeceraPrincipal">
+      <img src="imgs/logo.png" alt="logo de la pagina" />
+      <h1>Ingeniería Web</h1>
+      <!-- etiqueta donde se encuentra la barra de busqueda-->
+      <form>
+        <input type="search" name="q" placeholder="Buscar" />
+        <input type="submit" value="OK" />
+      </form>
+    </header>
+    <!--Menu de navegacion-->
+    <nav class="Menu">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Registro</a></li>
+        <li><a href="#">Encuentranos</a></li>
+        <li><a href="#">Info</a></li>
+      </ul>
+    </nav>
+    <!--Seccion de Banners donde iran imagenes -->
+    <section class="SeccionBanners">
+      <article class="Banner" id="B1"><h2>Banner 1</h2></article>
+      <article class="Banner" id="B2"><h2>Banner 2</h2></article>
+      <article class="Banner" id="B3"><h2>Banner 3</h2></article>
+    </section>
+
+    <article class="Articulo" id="art1">
+      <img class="ImgArticulo" src="imgs/art1.png" alt="imagen articulo 1" />
+      <h2>Articulo 1</h2>
+      <p>
+        El valor de “font-family” puede ser el nombre de una fuente, el cual
+        debe ir entre comillas, o también puede ser el nombre de varias fuentes
+        separados por comas; de esta manera podemos crear un respaldo, en caso
+        de que el navegador no pueda encontrar la fuente principal usará la
+        siguiente en la lista.
+      </p>
+    </article>
+
+    <article class="Articulo" id="art2">
+      <img class="ImgArticulo" src="imgs/art2.png" alt="imagen articulo 2" />
+      <h2>Articulo 2</h2>
+      <p>
+        El HTML se creó en un principio con objetivos divulgativos de
+        información con texto y algunas imágenes. No se pensó que llegara a ser
+        utilizado para crear área de ocio y consulta con carácter multimedia (lo
+        que es actualmente la web), de modo que, el HTML se creó sin dar
+        respuesta a todos los posibles usos que se le iba a dar y a todos los
+        colectivos de gente que lo utilizarían en un futuro.
+      </p>
+    </article>
   </body>
+  <!--Pie de pagina-->
+  <footer>
+    UTPL | Roberto Narváez &copy;
+  </footer>
 </html>
